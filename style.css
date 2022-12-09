@@ -39,6 +39,7 @@ GAME
   width: 100%;
   max-width: 400px;
   margin: 0 auto;
+  padding: 25px;
 }
 
 #btn {
@@ -66,10 +67,15 @@ GAME
   line-height: 48px;
   text-align: center;
 }
+
+#icon {
+  font-size: 48px;
+}
 .title {
-  font-size: 56px;
+  font-size: 72px;
   font-family: "Londrina Solid", sans-serif;
   text-transform: uppercase;
+  text-shadow: 3px 5px 0px #000000;
 }
 #string-display {
   padding-top: 100px;
