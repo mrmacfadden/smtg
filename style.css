@@ -97,9 +97,16 @@ SETTINGS
   z-index: 0;
   opacity: 0;
   transition: 0.3s;
+}
+.settings .wrapper {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
   padding: 100px 25px 0 25px;
 }
-
+.settings p {
+  text-align: left;
+}
 .settings h1 {
   font-size: 36px;
   font-family: "Londrina Solid", sans-serif;
