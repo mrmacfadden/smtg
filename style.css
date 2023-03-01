@@ -39,7 +39,7 @@ GAME
   width: 100%;
   max-width: 400px;
   margin: 0 auto;
-  padding: 100px 25px 0 25px;
+  padding: 50px 25px 0 25px;
 }
 
 #btn {
@@ -69,15 +69,17 @@ GAME
   font-size: 48px;
 }
 .title {
-  font-size: 58px;
+  font-size: 68px;
   font-family: "Londrina Solid", sans-serif;
   text-transform: uppercase;
   text-shadow: 3px 5px 0px #000000;
   line-height: 80px;
+  line-height:50px;
 }
 .title span {
   color: #000000;
   text-shadow: 3px 5px 0px #ffffff;
+  font-size:58px;
 }
 
 /*
@@ -99,7 +101,7 @@ SETTINGS
   width: 100%;
   max-width: 400px;
   margin: 0 auto;
-  padding: 100px 25px 0 25px;
+  padding: 50px 25px 0 25px;
 }
 .settings p {
   text-align: left;
