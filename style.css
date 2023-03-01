@@ -50,11 +50,8 @@ GAME
   color: #000000;
   border-radius: 5px;
   font-weight: bold;
-  position: absolute;
-  bottom: 100px;
-  width: 130px;
-  margin-left: -65px;
   transition: 0.2s;
+  margin-bottom:50px;
 }
 
 #btn:hover {
@@ -72,7 +69,7 @@ GAME
   font-size: 48px;
 }
 .title {
-  font-size: 72px;
+  font-size: 58px;
   font-family: "Londrina Solid", sans-serif;
   text-transform: uppercase;
   text-shadow: 3px 5px 0px #000000;
