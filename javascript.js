@@ -96,19 +96,11 @@ function displayRandomString() {
   }
 }
 
+function reloadPage(){
+  location.reload();
+}
+
+
 // Call the displayRandomString() function when the button is clicked
-btn.addEventListener("click", displayRandomString);
-
-// First, select the element with the class "settings"
-const settingsDiv = document.querySelector(".settings");
-
-// This is the onclick function that will be called when the element is clicked
-function showSettings() {
-  // Set the opacity of the element to 1 and the z-index to 2
-  settingsDiv.setAttribute("style", "opacity: 1; z-index: 2;");
-}
-
-function hideSettings() {
-  // Set the opacity of the element to 1 and the z-index to 2
-  settingsDiv.setAttribute("style", "opacity: 0; z-index: 1;");
-}
+//btn.addEventListener("click", displayRandomString);
+onload(displayRandomString());
