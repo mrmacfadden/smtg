@@ -23,6 +23,13 @@ body {
   right: 40px;
   cursor: pointer;
 }
+#home-button{
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  cursor: pointer;
+  color:#000;
+}
 
 /*
 =================================================

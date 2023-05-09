@@ -68,30 +68,35 @@ function displayRandomString() {
     document.body.style.backgroundImage = "none";
     document.body.style.backgroundColor = "#2d77e7ff";
     document.body.style.color = "#FFFFFF";
+    document.getElementById("home-button").style.color = "#FFFFFF";
     icon.innerHTML = textMessageIcon;
   } else if (snapchat.includes(randomString)) {
     document.getElementById("game").style.backgroundColor = "transparent";
     document.body.style.backgroundImage = "none";
     document.body.style.backgroundColor = "#fdfe00ff";
     document.body.style.color = "#000000";
+    document.getElementById("home-button").style.color = "#000000";
     icon.innerHTML = snapchatIcon;
   } else if (instagram.includes(randomString)) {
     document.getElementById("game").style.backgroundColor = "transparent";
     document.body.style.backgroundImage =
       "radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%)";
     document.body.style.color = "#FFFFFF";
+    document.getElementById("home-button").style.color = "#FFFFFF";
     icon.innerHTML = instagramIcon;
   } else if (tiktok.includes(randomString)) {
     document.getElementById("game").style.backgroundColor = "transparent";
     document.body.style.backgroundImage = "none";
     document.body.style.backgroundColor = "#d9d9d9ff";
     document.body.style.color = "#000000";
+    document.getElementById("home-button").style.color = "#000000";
     icon.innerHTML = tiktokIcon;
   } else if (misc.includes(randomString)) {
     document.getElementById("game").style.backgroundColor = "transparent";
     document.body.style.backgroundImage = "none";
     document.body.style.backgroundColor = "#000000";
     document.body.style.color = "#FFFFFF";
+    document.getElementById("home-button").style.color = "#FFFFFF";
     icon.innerHTML = miscIcon;
   }
 }
